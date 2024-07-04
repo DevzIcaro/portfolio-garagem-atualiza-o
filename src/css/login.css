@@ -1,0 +1,147 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 8em;
+}
+.card-login{
+    background-color: #ff7f1deb;
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0,0.8);
+}
+.card-login h1{
+    display: flex;
+    justify-content: center;
+}
+.card-login p{
+    display: flex;
+    justify-content: center;
+    margin: 0.4em;
+}
+.separacao-login{
+    display: flex;
+    justify-content: center;
+}
+.separacao-login hr{
+    padding: 1.2px;
+    background-color: #FFE147;
+    border: none;
+    border-radius: 1em;
+    width: 28em;
+    margin-bottom: 0.5em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+.input-group label{
+    display: flex;
+    margin-left: 0.3em;
+    padding: 5px;
+    font-weight: 500;
+}
+.input-group input{
+    border-radius: 0.5em;
+    border: none;
+    padding: 4px;
+    letter-spacing: 1px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0,0.5);
+}
+.input-group input:focus{
+    outline: none;
+    border: 2px solid #ccc;
+}
+.form-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+.form-button button{
+    padding: 4px;
+    width: 8em;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFE147;
+    cursor: pointer;
+    transition: all linear 160ms;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0,0.5);
+}
+.form-button button:hover{
+    transform: scale(1.1);
+}
+@media screen and (max-width: 2561px){
+    body{
+        height: 110vh;
+    }
+    .container{
+        margin: 10em 1em 0em 1em;
+    }
+    .card-login{
+        width: 1200px;
+    }
+}
+@media screen and (max-width: 1440px){
+    body{
+        height: 110vh;
+    }
+    .container{
+        margin: 10em 1em 0em 1em;
+    }
+    .card-login{
+        width: 800px;
+    }
+}
+@media screen and (max-width: 1350px) {
+    .container{
+        margin: 8em 1em 0em 1em;
+    }
+}
+@media screen and (max-width: 1178px){
+    .container{
+        margin: 5em 1em 0em 1em;
+    }
+}
+@media screen and (max-width: 1042px) {
+    .container{
+        margin: 3em 1em 0em 1em;
+    }
+}
+@media screen and (max-width: 1025px){
+    body{
+        height: 110vh;
+    }
+    .container{
+        margin: 2em 1em 0em 1em;
+    }
+    .card-login{
+        width: 800px;
+    }
+}
+@media screen and (max-width: 620px){
+    body{
+        height: 110vh;
+    }
+    .container{
+        margin: 1em 1em 0em 1em;
+    }
+    .card-login{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 440px){
+    body{
+        height: 110vh;
+    }
+    .container{
+        margin-top: 10em 1em 0em 1em;
+    }
+    .card-login{
+        width: 300px;
+    }
+}
